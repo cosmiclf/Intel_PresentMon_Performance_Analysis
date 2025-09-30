@@ -18,7 +18,7 @@ It serves both as a simple performance dashboard and as a **starting point** for
 ---
 
 ## Repository Structure
-- `notebooks/` → Jupyter notebook with the analysis  
-- `data/` → (optional) sample PresentMon log for testing  
+- `performance_log_visualizer.ipynb` → Jupyter notebook with the analysis  
+- `Logs/` → Sample PresentMon log for testing (csv files)
 - `requirements.txt` → list of Python dependencies  
 - `README.md` → project description and usage guide
