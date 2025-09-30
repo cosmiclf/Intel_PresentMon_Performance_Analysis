@@ -1,2 +1,24 @@
-# Intel_PresentMon_Performance_Analysis
-Analyze and visualize Intel PresentMon logs to evaluate PC performance. This project converts frametime into FPS, computes rolling averages and 1% lows, and plots CPU/GPU utilization to identify stutters and bottlenecks over time.
+# Intel PresentMon Log Analysis
+
+This project analyzes PC performance using logs recorded with **Intel PresentMon**.  
+The notebook processes raw PresentMon data into **FPS, CPU, and GPU metrics** and visualizes them over time to highlight stutter, bottlenecks, and performance trends.
+
+I created this notebook as a quick way to **visualize key metrics over the duration of a test**.  
+It serves both as a simple performance dashboard and as a **starting point** for working with the most important PresentMon metrics.
+
+---
+
+## Features
+- Convert frametime (`MsBetweenPresents`) into **FPS**.
+- Compute **average FPS** and **rolling 1% low FPS**.
+- Analyze **CPU/GPU utilization** and busy times.
+- Use **time-based rolling windows** for cleaner, more representative metrics.
+- Generate plots to visualize performance over time.
+
+---
+
+## Repository Structure
+- `notebooks/` → Jupyter notebook with the analysis  
+- `data/` → (optional) sample PresentMon log for testing  
+- `requirements.txt` → list of Python dependencies  
+- `README.md` → project description and usage guide
